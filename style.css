@@ -1,0 +1,95 @@
+body {
+  background: radial-gradient( 17.8% 45.68% at 61.59% 7.16%, rgba(221, 250, 240, 0.675) 0%, rgba(221, 250, 240, 0) 100% ),radial-gradient( 27.78% 81.17% at 68.06% 67.73%, rgba(255, 247, 217, 0.9) 0%, rgba(255, 247, 217, 0) 100% ),radial-gradient( 33.64% 72.69% at 38.37% 95.91%, rgba(245, 217, 245, 0.9) 0%, rgba(245, 217, 245, 0) 100% ),linear-gradient(180deg, #FAFAFA 0%, #FEFAFD 100%);
+  min-height: 100vh;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  width: 578px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: 36px;
+  /* text-align: center; */
+  color: #1e1e1eaa;
+}
+
+#root {
+  /* background-color: #d3d3d3aa;
+  width: 578px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(0 0 0 / 15%); */
+}
+
+.card {
+  background-color: #d3d3d3aa;
+  width: 578px;
+  margin: 0 auto;
+  /* padding: 15px; */
+  border-radius: 15px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+  display: flex;
+  margin-bottom: 15px;
+  overflow: hidden;
+
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.avatar {
+  /* border-radius: 64px; */
+  /* overflow: hidden; */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  width: 64px;
+}
+
+.avatar img {
+  height: 64px;
+  width: auto;
+  /* width: 64px; */
+}
+
+/* .avatar-miss {
+  background: radial-gradient( 17.8% 45.68% at 61.59% 7.16%, rgba(221, 250, 240, 0.675) 0%, rgba(221, 250, 240, 0) 100% ),radial-gradient( 27.78% 81.17% at 68.06% 67.73%, rgba(255, 247, 217, 0.9) 0%, rgba(255, 247, 217, 0) 100% ),radial-gradient( 33.64% 72.69% at 38.37% 95.91%, rgba(245, 217, 245, 0.9) 0%, rgba(245, 217, 245, 0) 100% ),linear-gradient(180deg, #FAFAFA 0%, #FEFAFD 100%);
+} */
+
+.info {
+  flex-grow: 1;
+}
+
+.nameline {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  height: 32px;
+  background-color: #d3d3d3;
+}
+
+.blogname {
+  color: #000;
+  /* font-size: 24px; */
+  /* font-weight: bold; */
+  margin-right: 6px;
+}
+
+.author {
+  color: royalblue;
+  font-size: 14px;
+}
+
+.description {
+  color: #1e1e1eaa;
+  padding-left: 15px;
+}
